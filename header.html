@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ProperLand</title>
+  <link rel="stylesheet" href="../WEB_BANCANHO/assets/css/header.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="header ">
+    <div class="content_header">
+      <div class="header_logo">
+        <a href="#" class="logo"><img src="../WEB_BANCANHO/assets/img/header/logo.png" alt="Logo thương hiệu"></a>
+      </div>
+      <div class="list_header">
+
+        <a href="homepage.html" class="link_list_header">Home</a>
+        <a href="about.html" class="link_list_header">About</a>
+        <a href="property.html" class="link_list_header">Properties</a>
+        <a href="agent.html" class="link_list_header">Agent</a>
+        <a href="blog.html" class="link_list_header">Blog</a>
+        <a href="contact_us.html" class="contact-button">Contact</a>
+      </div>
+      
+  </div>
+
+  </div>
+  <script>
+    window.addEventListener("scroll", function () {
+      var header = document.querySelector('.header');
+      header.classList.toggle("sticky", window.scrollY > 50); /* Thêm hoặc xóa lớp 'sticky' tùy thuộc vào vị trí cuộn của cửa sổ */
+    });
+  </script>
+  
+</body>
+
+</html>

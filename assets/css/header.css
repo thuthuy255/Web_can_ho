@@ -1,0 +1,73 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  background-image: url("./assets/Banner.png");
+  width: 100%;
+  position: fixed;
+  z-index: 9999; 
+  top: 50px; /* Bắt đầu ẩn thanh header */
+  transition: top 0.3s; /* Áp dụng hiệu ứng chuyển động khi thay đổi top */
+  /* Thêm box shadow */
+  /* Các thuộc tính khác */
+  font-family: "Kufam", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 14px;
+}
+
+.sticky {
+  top: 0; /* Hiển thị thanh header ở đầu trang */
+}
+.content_header{
+  display: flex;
+  margin: 0 10%;
+  /* height: 300px; */
+  justify-content: space-between;
+  padding: 16px 50px;
+  border: none;
+  border-radius: 7px;
+  background-color:#fff;
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, .3), 0 1px 3px 1px rgba(60, 64, 67, .15) !important;
+
+  gap: 150px;
+}
+
+
+.list_header{
+  margin-top: 30px;
+  display: flex;
+  gap:30px;
+  
+}
+
+.contact-button{
+  border: none;
+  background-color: rgb(58,59, 93);
+  border-radius: 5px;
+  color: white;
+  padding:11px 30px;
+  margin-top: -10px;
+  height: 40px;
+  text-decoration: none;
+}
+.link_list_header{
+  color: #A4A4A4;
+  text-decoration: none;
+}
+.link_list_header:hover{
+  color: black;
+}
+ul{
+  list-style: none;
+}
+@media (max-width: 800px) {
+  .header{
+    display: none;
+  }
+ 
+}

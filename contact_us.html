@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us</title>
+        <link rel="stylesheet" href="../WEB_BANCANHO/assets/css/reset.css">
+        <link rel="stylesheet" href="../WEB_BANCANHO/assets/css/header.css">
+        <link rel="stylesheet" href="../WEB_BANCANHO/assets/css/footer.css">
+        <link rel="stylesheet" href="../WEB_BANCANHO/assets/css/contact_us.css">
+        <link rel="stylesheet" href="../WEB_BANCANHO/assets/css/homepage.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400..900;1,400..900&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="header">
+        <div class="content_header">
+          <div class="header_logo">
+            <a href="#" class="logo"><img src="../WEB_BANCANHO/assets/img/header/logo.png" alt="Logo thương hiệu"></a>
+          </div>
+          <div class="list_header">
+            <a href="homepage.html" class="link_list_header">Home</a>
+            <a href="about.html" class="link_list_header">About</a>
+            <a href="property.html" class="link_list_header">Properties</a>
+            <a href="agent.html" class="link_list_header">Agent</a>
+            <a href="blog.html" class="link_list_header">Blog</a>
+            <a href="contact_us.html" class="contact-button">Contact</a>
+          </div>
+        </div>
+        <script>
+            window.addEventListener("scroll", function () {
+                var header = document.querySelector('.header');
+                header.classList.toggle("sticky", window.scrollY > 50); /* Thêm hoặc xóa lớp 'sticky' tùy thuộc vào vị trí cuộn của cửa sổ */
+            });
+        </script>
+  
+  
+      </div>
+    
+    <main>
+        <div id="background">
+            <img id="img1" src="../WEB_BANCANHO/assets/img/contact_us/CU_bgc.png" alt="background">
+            <img id="img2" src="../WEB_BANCANHO/assets/img/contact_us/CU_pg_detail.png" alt="background">
+</div>
+        <div class="content">
+            <div class="content_top">
+                <div class="contact-us-left">
+                    <a href="#!" class="home-contact-us" >
+                        <img src="../WEB_BANCANHO/assets/img/contact_us/home-icon.svg" alt="contact us">
+                        <span style="color: #B16642;">CONTACT US</span>
+                    </a>
+                    <h1>Contact us For More Information</h1>
+                    <p>Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <div class="contact-if">
+                        <div class="img_under">
+                            <img class="under" src="../WEB_BANCANHO/assets/img/contact_us/Background_email-tel.png" alt="">
+                            <img class="under" src="../WEB_BANCANHO/assets/img/contact_us/Background_email-tel.png" alt="">
+                        </div>
+                        <div class="email">
+                            <img src="../WEB_BANCANHO/assets/img/contact_us/email-iconsvg.svg" alt="">
+                            <span>Properland@mail.com</span>
+                        </div>
+                        <div class="tel">
+                            <img src="../WEB_BANCANHO/assets/img/contact_us/tel-icon.svg" alt="">
+                            <span>+ 7016 - 5060 - 1920</span>
+                        </div>
+                    </div>
+                    <div class="location">
+                        <h3>Location</h3>
+                        <p>Dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores.</p>
+                        <div class="location_item">
+                            <div class="loc_under">
+                                <img src="../WEB_BANCANHO/assets/img/contact_us/Background_location.png" alt="">
+                                <img src="../WEB_BANCANHO/assets/img/contact_us/Background_location.png" alt="">
+                            </div>
+                            <div class="loca_infor">
+                                <div class="London">
+                                    <h4>London</h4>
+                                    <p>3803 Marquette Pl #5S 
+                                        San Diego, 92106</p>
+                                </div>
+                                <div class="Los-Angeles">
+                                    <h4>Los Angeles</h4>
+                                    <p>1000 S Westgate Ave.
+                                        Los Angeles, 90049</p>
+                                </div>
+                            </div>
+                        </div>      
+                    </div>
+                </div>
+                <div class="contact-us-right">
+                    <div class="quick-contact">
+                        <h4>Quick Contact</h4>
+                        <p id="p1">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore</p>
+                    </div>
+                    <form action="" method="POST" class="form" id="form-contact_us">
+                        <div class="form-group">
+                            <label for="name"></label><br>
+                            <input type="text" id="name" name="name" placeholder="Name"><br>
+                            <span class="form-message" id="name-message">What is your name?</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="email"></label><br>
+                            <input type="email" id="email" name="email" placeholder="Email"><br>
+                            <span class="form-message" id="email-message">Please enter a valid email.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="tel"></label><br>
+                            <input type="tel" id="tel" name="tel" placeholder="Phone"><br>
+                            <span class="form-message" id="tel-message">Please enter a valid phone number.</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="message"></label><br>
+                            <input type="text" id="message" name="message" placeholder="Message"><br>
+                        </div>
+                        <div class="action">
+                            <a href="#!" class="btn btn-submit">Submit</a>
+                        </div>
+                    </form>
+                    
+                </div>
+            </div>
+            <div class="content_middle">
+                <div class="header-content_middle">
+                    <a href="#!" class="home-answers" >
+                        <img src="../WEB_BANCANHO/assets/img/contact_us/home-icon.svg" alt="ANSWER">
+                        <span style="color: #B16642;">ANSWERS</span>
+                    </a>
+                    <h1 id="asked_question">Frequently Asked Questions</h1>
+                </div>
+            
+                <div class="question">
+                    <div class="static">
+                        <h4>How to buy a product?</h4>
+                        <img class="show" src="../WEB_BANCANHO/assets/img/contact_us/add_icon.svg" alt="">
+                        <img class="answer-icon" src="../WEB_BANCANHO/assets/img/contact_us/mul_icon.svg" alt="">
+                    </div>
+                    <p class="answer" style="margin-bottom: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. </p>
+                </div>
+                <hr>
+                
+                <div class="question">
+                    <div class="static">
+                        <h4>How can i make refund from your website?</h4>
+                        <img class="show" src="../WEB_BANCANHO/assets/img/contact_us/add_icon.svg" alt="">
+                        <img class="answer-icon" src="../WEB_BANCANHO/assets/img/contact_us/mul_icon.svg" alt="">
+
+                    </div>
+                    <p class="answer" style="margin-bottom: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. </p>
+                </div>
+                <hr>
+
+                <div class="question">
+                    <div class="static">
+                        <h4>I am a new user. How should I start?</h4>
+                        <img class="show" src="../WEB_BANCANHO/assets/img/contact_us/add_icon.svg" alt="">
+                        <img class="answer-icon" src="../WEB_BANCANHO/assets/img/contact_us/mul_icon.svg" alt="">
+
+                    </div>
+                    <p class="answer" style="margin-bottom: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. </p>
+
+                </div>
+                <hr>
+                <div class="question">
+                    <div class="static">
+                        <h4>Returns and refunds</h4>
+                        <img class="show" src="../WEB_BANCANHO/assets/img/contact_us/add_icon.svg" alt="">
+                        <img class="answer-icon" src="../WEB_BANCANHO/assets/img/contact_us/mul_icon.svg" alt="">
+
+                    </div>
+                    <p class="answer" style="margin-bottom: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. </p>
+
+                </div>
+                <hr>
+                <div class="question">
+                    <div class="static">
+                        <h4>How do I make payment by my credit card</h4>
+                        <img class="show" src="../WEB_BANCANHO/assets/img/contact_us/add_icon.svg" alt="">
+                        <img class="answer-icon" src="../WEB_BANCANHO/assets/img/contact_us/mul_icon.svg" alt="">
+
+                    </div>
+                    <p class="answer" style="margin-bottom: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. </p>
+
+                </div>
+                <hr>
+                <div class="question">
+                    <div class="static">
+                        <h4>How do I make payment by my credit card</h4>
+                        <img class="show" src="../WEB_BANCANHO/assets/img/contact_us/add_icon.svg" alt="">
+                        <img class="answer-icon" src="../WEB_BANCANHO/assets/img/contact_us/mul_icon.svg" alt="">
+                    </div>
+                    <p class="answer" style="margin-bottom: 25px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore et dolore magna aliqua. Scelerisque eleifend donec pretium vulputate sapien nec sagittis. Proin libero nunc consequat interdum. Condimentum lacinia quis vel eros donec ac. Mauris sit amet massa vitae tortor. Quisque id diam vel quam elementum pulvinar. </p>
+                </div>
+                <hr>
+            </div>
+        </div>
+        </div>
+        <div class="content_bottom">
+            <div class="bottom_item">
+                <h2>56,180</h2>
+                <p>In property sales</p>
+            </div>
+            <div class="bottom_item">
+                <h2>99%</h2>
+                <p>Customer satisfaction</p>
+            </div>
+            <div class="bottom_item">
+                <h2>25K+</h2>
+                <p>Property Transaction</p>
+            </div>
+            <div class="bottom_item">
+                <h2>2,918</h2>
+                <p>Customer satisfaction</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="content_footer">
+            <div class="footer_up">
+                <div class="footer_up-logo">
+                    <img class="img_logo" src="../WEB_BANCANHO/assets/img/footer/logo (9).png" alt="">
+                    <div class="icon_footer_up">
+                        <img src="../WEB_BANCANHO/assets/img/homepage/Insta.png" alt="" class="img_footer">
+                        <img src="../WEB_BANCANHO/assets/img/homepage/Fb.png" alt="" class="img_footer">
+                        <img src="../WEB_BANCANHO/assets/img/homepage/Twiter.png" alt="" class="img_footer">
+                        <img src="../WEB_BANCANHO/assets/img/homepage/In (1).png" alt="" class="img_footer">
+                        <img src="../WEB_BANCANHO/assets/img/homepage/Youtube.png" alt="" class="img_footer">
+                    </div>
+                </div>
+                <div class="line_footer_up"></div>
+                <div class="text_footer_up">
+                    <h1 style="color: #3B3A5D;">Get a free estimate</h1>
+                    <p style="color: #B16642;">Leverage agile frameworks to provide a robust synopsis for high level
+                        overviews. approaches
+                        lverall value proposition. Organically grow the holistic world view of disruptive.</p>
+                    <div class="button_footer_up">
+                        <div class="input_email">
+                            <input type="text" placeholder="your email address here" class="input_add">
+                        </div>
+                        <div class="button_subscribe">
+                            <p>Subscribe Now</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="line_footer"></div>
+            <div class="footer_down">
+                <div class="list_text">
+                    <p style="color: #3B3A5D; font-size: 17px;"><strong>Company</strong></p>
+                    <div class="text_company">
+                        <p>About</p>
+                        <p>Blog</p>
+                        <p>Properties</p>
+                        <p>Agents</p>
+                        <p>Services</p>
+                        <p>Contact us</p>
+                    </div>
+                </div>
+                <div class="list_text">
+                    <p style="color: #3B3A5D; font-size: 17px;"><strong>Services</strong></p>
+                    <div class="text_company">
+                        <p>Rend A Home</p>
+                        <p>Sell A Home</p>
+                        <p>Buy A Home</p>
+                        <p>Property Insurance</p>
+                        <p>Member Support</p>
+                        <p>Experience Agent</p>
+                    </div>
+                </div>
+                <div class="list_text">
+                    <p><strong style="color: #3B3A5D; font-size: 17px;">Uitility pages</strong></p>
+                    <div class="text_company">
+                        <p>Style Guide</p>
+                        <p>Licenses</p>
+                        <p>Changelog</p>
+                        <p>Password</p>
+                        <p>Not found</p>
+                        <p>More Template</p>
+                    </div>
+                </div>
+                <div class="line_footer_up"></div>
+                <div class="contact_us_footer">
+                    <p><strong>Contact Us</strong></p>
+                    <div class="contact_us_footer_add">
+                        <img src="../WEB_BANCANHO/assets/img/homepage/add.png" alt="" class="img_footer">
+                        <p>329 Queensberry Street, North Melbourne VIC 3051, Australia.</p>
+                    </div>
+                    <div class="contact_us_footer_add">
+                        <img src="../WEB_BANCANHO/assets/img/homepage/phone.png" alt="" class="img_footer">
+                        <p>123 456 7890</p>
+                    </div>
+                    <div class="contact_us_footer_add">
+                        <img src="../WEB_BANCANHO/assets/img/homepage/email.png" alt="" class="img_footer">
+                        <p>support@example.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="line_footer"></div>
+
+            <p class="text">Copyright © Properland | Designed by <strong>VictorFlow</strong> - Powered by
+                <strong>Webflow</strong> .
+            </p>
+        </div>
+    </footer>
+    <script>
+        // Xử lý sự kiện click trên các câu hỏi để mở rộng/collapse nội dung của câu hỏi
+        let questions = document.querySelectorAll(".question");
+        console.log(questions);
+        questions.forEach((question) => {
+            question.addEventListener("click", () => {
+                question.classList.toggle("active");
+            });
+        });
+
+        document.querySelector('.btn-submit').addEventListener('click', function(event) {
+            event.preventDefault();
+            let isValid = true;
+
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const tel = document.getElementById('tel').value;
+            const message = document.getElementById('message').value;
+
+            const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            const phonePattern = /^\d{10,11}$/; // Pattern for 10 or 11 digits
+
+            // Reset all error messages
+            document.querySelectorAll('.form-message').forEach(function(element) {
+                element.classList.remove('active');
+            });
+
+            if (!name) {
+                isValid = false;
+                document.getElementById('name-message').classList.add('active');
+            }
+
+            if (!emailPattern.test(email)) {
+                isValid = false;
+                document.getElementById('email-message').classList.add('active');
+            }
+
+            if (!phonePattern.test(tel) || isNaN(tel)) { // Check if tel contains non-digit characters
+                isValid = false;
+                document.getElementById('tel-message').classList.add('active');
+            }
+
+            if (isValid) {
+                alert('Form submitted successfully!');
+            }
+        });
+    </script>
+       
+    <style>
+        .form-message {
+            color: red;
+            display: none;
+        }
+        .form-message.active {
+            display: block;
+            
+        }
+    </style>
+
+    
+
+</body>
+</html>

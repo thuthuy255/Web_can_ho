@@ -1,0 +1,906 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    html{
+        overflow-x: hidden;
+    }
+    .text_header_homepage {
+        background-image: url('../img/homepage/Banner.png');
+        width: 100%;
+        height: 700px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 300px 150px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+    .text_header_content{
+        color:#3B3A5D;
+        font-size: 50px;
+    }
+    .img_header_text {
+        width: 27%;
+        height: 25px;
+    }
+
+    .text_header {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .content_homepage {
+        font-family: "Kufam", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 12px
+    }
+
+    .text_font {
+        font-family: "Source Sans 3", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+    }
+
+    .button_text_header {
+        display: flex;
+        gap: 10px;
+        border: none;
+        background-color: white;
+        padding: 16px 15px;
+        width: 150px;
+        border-radius: 5px;
+        color: #3B3A5D;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        /* Thêm hiệu ứng bóng xung quanh */
+        transition: box-shadow 0.3s, transform 0.7s;
+    }
+
+    .button_text_header:hover {
+        background-color: #3B3A5D;
+        color: rgb(255, 255, 255);
+        cursor: pointer;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        /* Hiệu ứng bóng lớn hơn khi hover */
+        transform: translateY(-6px);
+    }   
+
+    .img_arrow {
+        width: 13px;
+        height: 13px;
+        margin-top: 1px;
+    }
+
+    .page1_homepage {
+        display: flex;
+        gap: 5px;
+        font-size: 16px;
+        color: #3B3A5D;
+    }
+
+    .text_page1_homepage {
+        width: 100%;
+    }
+
+    .page1_content {
+        width: 55%;
+        background-color: #F2F2F2;
+        padding: 40px 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px
+    }
+
+    .button_page1 {
+        border: 1px solid #CFCFCF;
+        border-radius: 50%;
+        background-color: #CFCFCF;
+        width: 23px;
+        height: 23px;
+        margin-top: -2px;
+    }
+
+    .icon_page1 {
+        border: 1px solid #3B3A5D;
+        border-radius: 50%;
+        background-color: #3B3A5D;
+        width: 8px;
+        height: 8px;
+        margin: 7px 7px;
+    }
+
+    .content_text_page1 {
+        display: flex;
+        gap: 40px;
+        margin-top: 20px;
+    }
+
+    .icon_text_page1 {
+        display: flex;
+        gap: 10px
+    }
+
+    .img_page1 {
+        width: 25%;
+        height: 330px;
+    }
+
+    .content_page1 {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-top: 30px;
+    }
+
+    .content_page2 {
+        background-image: url("../img/homepage/Properties.png");
+        width: 100%;
+        /* min-height: 700px; */
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* padding: 150px 150px; */
+        margin-top: 20px;
+        background-position-y: bottom;
+        padding-bottom: 80px;
+
+    }
+
+    .text_header_page2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* width: 40%; */
+        margin: 0 auto;
+        padding-top: 20px;
+        gap: 20px
+    }
+
+    .button_for_sale {
+        border: none;
+        padding: 9px 8px;
+        background-color: #FFBB50;
+        width: 70px;
+        border-radius: 5px;
+
+    }
+    
+    .product_page2 {
+        border: none;
+        /* width: 28%; */
+        background-color: rgb(255, 255, 255);
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        /* Thêm hiệu ứng bóng xung quanh */
+        transition: box-shadow 0.3s, transform 0.5s;
+        border-radius: 10px;
+    }
+
+    .product_page2:hover {
+        background-color: #FFBB50;
+        cursor: pointer;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        /* Hiệu ứng bóng lớn hơn khi hover */
+        transform: translateY(-4px);
+    }
+    
+    .product_page2:hover .img_icon {
+        content: url("../img/homepage/add.png"); /* Đường dẫn đến ảnh mới */
+      }
+    .product_page2:hover .text_cost {
+        color: #fff;
+    }
+
+    .text_cost {
+        color: #FFBB50;
+    }
+
+    .product_page2:hover .button_for_sale {
+        background-color: rgb(236, 229, 229);
+        border: 1px solid #ccc;
+    }
+
+    .img_page2 {
+        width: 400px;
+    }
+
+    .cost_product_page2 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .text_cost {
+        margin-top: 10px;
+    }
+
+    .address_page2 {
+        display: flex;
+        gap: 10px
+    }
+
+    .bed_info_page2 {
+        display: flex;
+        gap: 10px;
+        border-radius: 3px;
+        font-size: 9px;
+        border: 1px solid #8E8E8E;
+        padding: 7px 3px;
+        width: 80px;
+    }
+
+    .product_content {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        margin: 30px;
+
+
+    }
+    .text1{
+        width: 70%;
+    }
+    .img_icon {
+        width: 13px;
+        height: 16px;
+    }
+
+    .img_icon1 {
+        width: 13px;
+        margin-top: -2px;
+        padding-left: 3px;
+    }
+
+    .product {
+        display: flex;
+        flex-direction: column;
+        gap: 30px
+    }
+
+    .info_page2 {
+        display: flex;
+        gap: 25px
+    }
+    .text_page1_homepage{
+        color:#3B3A5D; 
+        font-size: 30px;
+    }
+    .button_page2_content {
+        display: flex;
+        background-color: white;
+        padding: 12px 9px;
+        width: 130px;
+        gap: 10px;
+        border-radius: 5px;
+        margin: 0 auto;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        /* Thêm hiệu ứng bóng xung quanh */
+        transition: box-shadow 0.3s, transform 0.7s;
+    }
+
+    .button_page2_content:hover {
+        background-color: #3B3A5D;
+        color: white;
+        cursor: pointer;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        /* Hiệu ứng bóng lớn hơn khi hover */
+        transform: translateY(-4px);
+    }
+
+    .content_page3 {
+        margin-top: 40px;
+    }
+
+    .img_page3 {
+        margin-top: 30px;
+    }
+
+    .img_page3_content1 {
+        background-image: url(../img/homepage/page3_1.png);
+        width: 48%;
+        height: 320px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 170px;
+        padding-left: 10px;
+        margin-left: 150px
+    }
+
+    .img_page3_content2 {
+        background-image: url(../img/homepage/page3_2.png);
+        width: 80%;
+        height: 280px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 50px;
+        padding-left: 320px;
+
+    }
+
+    .img_content_page3 {
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+
+    .text_img_page3_content2 {
+        width: 50%;
+        font-family: "Source Sans 3", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+    }
+
+    .text_img_page3_content1 {
+        width: 90%;
+        font-family: "Source Sans 3", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 13px;
+
+    }
+
+    .img_page3_content3 {
+        background-image: url(../img/homepage/page3_3.png);
+        width: 300px;
+        height: 320px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 190px;
+        padding-left: 10px;
+    }
+
+    .img_page3_content4 {
+        background-image: url(../img/homepage/page3_4.png);
+        width: 311px;
+        height: 320px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 190px;
+        padding-left: 10px;
+    }
+
+    .img_page3_content5 {
+        background-image: url(../img/homepage/page3_5.png);
+        width: 300px;
+        height: 350px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        padding-top: 190px;
+        padding-left: 10px;
+    }
+
+    .img_content_page3_1 {
+        display: flex;
+        gap: 40px;
+        margin-left: 150px
+    }
+
+    .text_page1_homepage_1 {
+        width: 40%;
+        font-family: "Source Sans 3", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+    }
+
+    .content_page4 {
+        background-image: url('../img/homepage/Image\ \(9\).png');
+        width: 100%;
+        height: 580px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .text_content_page4 {
+        display: flex;
+        flex-direction: column;
+        gap: 12px
+    }
+
+    .button_page4 {
+        display: flex;
+        background-color: #FFBB50;
+        padding: 15px 12px;
+        width: 120px;
+        gap: 12px;
+        border-radius: 5px;
+        margin-left: 80px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        /* Thêm hiệu ứng bóng xung quanh */
+        transition: box-shadow 0.3s, transform 0.7s;
+    }
+
+    .button_page4:hover {
+        cursor: pointer;
+        /* background-color: rgb(218, 220, 159); */
+        color: #3B3A5D;
+        cursor: pointer;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        /* Hiệu ứng bóng lớn hơn khi hover */
+        transform: translateY(-4px);
+    }
+
+    .img_vector {
+        width: 14px;
+        height: 14px;
+    }
+
+    .page4_content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        margin: 100px;
+    }
+
+    .button_page5_1 {
+        width: 30%;
+        border: none;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .img_page5 {
+        width: 90px;
+        height: 150px;
+        
+    }
+
+    .button_page5 {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 30px;
+        padding: 0 30px;
+    }
+
+    .page5_button {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content_page5 {
+        display: flex;
+        flex-direction: column;
+        gap: 60px
+    }
+
+    .content_page6 {
+        background-color: #F3E8E2;
+        margin-top: 40px;
+
+    }
+
+    .header_content_page6 {
+        display: flex;
+        justify-content: space-between;
+        padding: 60px;
+
+    }
+
+    .arrow_content {
+        display: flex;
+        gap: 20px
+    }
+
+    .arrow {
+        border: 1px solid;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        color: #FFBB50;
+        background-color: white;
+        padding: 11px;
+        font-size: 15px;
+    }
+
+    .arrow:hover {
+        border: 1px solid;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        padding: 11px;
+        background-color: #FFBB50;
+        color: white;
+        cursor: pointer;
+    }
+
+    .text_page6_info {
+        width: 90%;
+        border-radius: 20px 20px 20px 0;
+        background-color: #ECC8B7;
+        margin: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap:10px
+    }
+
+    .img_info {
+        width: 70px;
+        height: 70px;
+    }
+
+    .img_page6_info {
+        display: flex;
+        gap: 20px;
+        margin-left: 20px;
+    }
+
+    .text_img_page6_info {
+        padding-top: 17px;
+    }
+
+    .info_page6 {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-bottom: 60px;
+        width: 110%;
+        overflow: hidden;
+        /* transform: 0.3s ; */
+        
+       
+    }
+
+    .text_page6_info_1 {
+        width: 70%;
+
+        border-radius: 20px 20px 20px 0;
+        background-color: #ECC8B7;
+        margin: 10px;
+        padding: 20px;
+
+    }
+
+    .page6_info {
+        width: 40%;
+        /* min-width: 100%; */
+        
+        transition:  box-shadow 0.3s, transform 0.5s;
+    }
+
+    .content_page6_1 {
+        display: flex;
+        justify-content: center;
+        gap: 100px;
+        /* font-size: 30px; */
+        margin: 30px;
+    }
+
+    .num_content_page6_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .line_page6 {
+        border: 1px solid #E4E4E4;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .page7_img1 {
+        background-image: url(../img/homepage/1\ \(2\).png);
+        width: 80%;
+        height: 230px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 140px;
+        padding-top: 5px;
+        /* background-color: white; */
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+        /* Hiệu ứng box shadow */
+        /* transition: transform 0.3s, box-shadow 0.3s;
+        Hiệu ứng chuyển đổi*/
+        transition: transform 0.5s ease;
+    } 
+
+    .page7_img1:hover {
+        transform: scale(1.1);
+        /* Phóng to thẻ div lên khi hover */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        /* Tăng độ đậm của box shadow */
+        cursor: pointer;
+    }
+
+    .arrow_1 {
+        background-color: white;
+        opacity: 0.5;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        padding: 7px 8px;
+        margin-right: 10px;
+        margin-top: 5px;
+        font-size: 14px;
+    }
+
+    .img_page7 {
+        display: flex;
+        margin-left: 120px;
+        margin-top: 20px;
+        gap: 90px
+    }
+
+    .page7_img2 {
+        background-image: url(../img/homepage/2\ \(1\).png);
+        width: 80%;
+        height: 230px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 140px;
+        padding-top: 5px;
+        /* background-color: white; */
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+        /* Hiệu ứng box shadow */
+        /* transition: transform 0.3s, box-shadow 0.3s;
+        Hiệu ứng chuyển đổi*/
+        transition: transform 0.5s ease;
+    }
+    .page7_img2:hover {
+        transform: scale(1.1);
+        /* Phóng to thẻ div lên khi hover */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        /* Tăng độ đậm của box shadow */
+        cursor: pointer;
+    }
+    .page7_img3 {
+        background-image: url(../img/homepage/3\ \(1\).png);
+        width: 80%;
+        height: 230px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 140px;
+        padding-top: 5px;
+        /* background-color: white; */
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+        /* Hiệu ứng box shadow */
+        /* transition: transform 0.3s, box-shadow 0.3s;
+        Hiệu ứng chuyển đổi*/
+        transition: transform 0.5s ease;
+    }
+    .page7_img3:hover {
+        transform: scale(1.1);
+        /* Phóng to thẻ div lên khi hover */
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        /* Tăng độ đậm của box shadow */
+        cursor: pointer;
+    }
+    .page7_img4 {
+        background-image: url(../img/homepage/4.png);
+        width: 80%;
+        height: 230px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding-left: 140px;
+        padding-top: 5px;
+        /* background-color: white; */
+        /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+        /* Hiệu ứng box shadow */
+        /* transition: transform 0.3s, box-shadow 0.3s;
+        Hiệu ứng chuyển đổi*/
+        transition: transform 0.5s ease;
+    }
+    .page7_img4:hover {
+        transform: scale(1.1);
+        /*Phóngtothẻdivlênkhihover*/box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        /*Tăngđộđậmcủaboxshadow*/cursor: pointer;
+
+}
+    .content_page7 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 20px;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+        width: 80%;
+    }
+
+    .content_page7_1 {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+        background-color: #F5F1EF;
+        padding: 30px 0;
+        width: 79%;
+        /* margin: 0 auto; */
+        margin-left: 160px;
+    }
+
+    .img_content_page7 {
+        width: 80%;
+    }
+
+    .img_page8_1 {
+        width: 60%;
+    }
+
+    .text_img_page8_1 {
+        display: flex;
+        gap: 10px
+    }
+
+    .page8_img {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        gap: 20px
+    }
+
+    .img_page8 {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .button_text_header_page8 {
+        display: flex;
+        gap: 10px;
+        border: none;
+        background-color: white;
+        padding: 16px 15px;
+        width: 150px;
+        border-radius: 5px;
+        color: #3B3A5D;
+        margin: 0 auto;
+        margin-top: 20px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        /* Thêm hiệu ứng bóng xung quanh */
+        transition: box-shadow 0.3s, transform 0.7s;
+
+    }
+
+    .button_text_header_page8:hover {
+        background-color: #FFBB50;
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        /* Hiệu ứng bóng lớn hơn khi hover */
+        transform: translateY(-4px);
+        cursor: pointer;
+    }
+
+    .content_page8 {
+        background-image: url(../img/homepage/Background.png);
+        margin-top: 80px;
+        padding: 30px 0;
+    }
+    @media (max-width: 800px) {
+        .arrow_1,
+        .content_page6,
+        .img_header_text{
+            display: none;
+        }
+        .page4_content{
+            margin: 0;
+            padding: 30px;
+        }
+        .content_page4{
+            background-size: auto;
+            height: auto;
+        }
+        .page1_content,
+        .img_page1,
+        .img_page2,
+        .bed_info_page2,
+        .img_page3_content1,
+        .img_page3_content2,
+        .text_page1_homepage_1,
+        .img_page7,
+        .content_page7,
+        .page7_img1,
+        .page7_img2,
+        .page7_img3,
+        .page7_img4,
+        .content_page7_1,
+        .img_page8_1,
+        .img_page3_content3{
+            width: 100%;
+        }
+        .button_page4{
+            margin: 0 auto;
+        }
+        .text_header_homepage{
+            background-size: auto;
+            padding: 20px;
+            height: auto;
+        }
+        
+        .text_header{
+            width: 100%;
+        }
+        .text_header_content{
+            font-size: 30px;
+        }
+        .product_content,
+        .info_page2,
+        .img_content_page3,
+        .img_content_page3_1,
+        .content_page6_1,
+        .img_page7,
+        .content_page1{
+            flex-direction: column;
+        }
+        .bed_info_page2{
+            justify-content: center;
+        }
+        .img_page3_content1{
+            padding: 20px;
+            margin: 0;
+            background-size: auto;
+        }
+        .text_img_page3_content2{
+            width: auto;
+        }
+        .img_page3_content2{
+            margin: 0;
+            padding: 30px;
+        }
+        .img_content_page3_1{
+            margin: auto;
+        }
+        .img_page3_content3{
+            background-size: auto;
+            height: auto;
+            padding:20px;
+            border-radius: 20px;
+        }
+        .img_page3_content4,
+        .img_page3_content5{
+            padding: 30px;
+            height: auto;
+        }
+        .img_page3_content5,
+        .img_page3_content4{
+            background-size: auto;
+            width: 100%;
+            border-radius: 0px;
+        }
+        .img_page7,
+        .content_page7{
+            margin: 0;
+        }
+        .content_page7_1{
+            margin: 0;
+            padding: 30px;
+        }
+        .content_page8{
+            padding: 0 30px 30px 30px;
+        }
+        .img_page7_item{
+            width: 80%;
+            margin: 0 auto;
+            height: 400px
+        }
+        .img_page8_1{
+            height: 250px;
+        }
+        
+        
+    }

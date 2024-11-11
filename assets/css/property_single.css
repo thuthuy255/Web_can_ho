@@ -1,0 +1,416 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 1.6rem;
+    font-family: "Source Sans 3", sans-serif;
+    color: #8E8E8E;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+h2{
+    font-family: "Kufam", sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 4rem;
+    color: #3B3A5E;
+}
+h3{
+    font-family: "Kufam", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    /* line-height: 1; */
+    color: #3B3A5E;
+}
+h4{
+    font-family: "Kufam", sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+
+    color: #3B3A5E;
+}
+#background{
+    width: 100%;
+}
+.content-top, .content-middle, .property-deals{
+    padding: 10rem 13.5rem 10rem 13.5rem;
+}
+
+.content-top{
+    display: flex;
+    gap: 7rem;
+}
+
+.content-header-right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 30px;
+    width: 50%;
+}
+.location{
+    display: flex;
+    font-family: "Source Sans 3";
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.3rem;
+    gap: 0.7rem;
+    margin-bottom: 2rem;
+}
+.content-header-left h1{
+    font-family: "Kufam", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 5rem;
+    color: #3B3A5E;
+    margin-bottom: 20px;
+}
+.price{
+    font-family: "Kufam", sans-serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    /* line-height: px; */
+    text-align: center;
+    color: #FFBB50;
+}
+.Description {
+    list-style-type: none; 
+    display: flex;
+    align-items: center;
+    /* justify-content: flex-end; */
+    gap: 10px;
+    /* border: solid black; */
+}
+.d1{
+    margin-top:0 0.2rem 0;
+}
+
+.Description .D-item{
+    display: flex;
+    border: solid #C8C8C8 1px;
+    /* width: 115px; */
+    color: #8E8E8E;
+    padding: 0.8rem 0.6rem;
+    align-items: baseline;
+    border-radius: 5px ;
+}
+.wall{
+    border: 1px solid #C8C8C8;
+    margin: 0.3rem 0.5rem ;
+    padding: 0.3rem 0;
+    border-radius: 2px;
+    height: 1.7rem;
+}
+.D-item p{
+    display: inline-block;
+    /* align-self: flex-end; */
+}
+.btn{
+    display: inline-block;
+    gap: 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.action .btn-sale-for{
+    padding: 1.5rem 4.5rem 1.5rem 4.5rem;
+    background-color: #3B3A5E;
+    border: 1px solid #3B3A5E;
+    color: white;
+}
+header .location img{
+    width: 100%;
+}
+hr{
+    margin: 5rem 0;
+    border: 1px solid #DAC5BB;
+}
+.content-middle{
+    display: flex;
+    gap: 7rem;
+
+}
+.content-middle-left{
+    /* gap: 50px; */
+}
+.content-middle-left p{
+    margin: 3rem 0;
+}
+#c1_property ul{
+    margin-left: 3rem;
+    display: flex;
+    flex-direction: column; /* Thiết lập hướng của flexbox */
+    gap: 1.5rem;
+}
+#leadership{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #8E8E8E;     
+}
+#quality{
+    font-size: 15px;
+    font-weight: 600;
+    color: #3B3A5D;  
+ 
+}
+.content-middle-left #quote{
+    display: inline-block;
+    padding: 6rem 7rem 6rem 7rem;
+    border-radius: 5px;
+    background-color: #3B3A5D;
+    font-family: "Source Sans 3", sans-serif;
+    color: white;
+    font-size: 25px;/*gốclà30*/
+    font-style: italic;
+    font-weight: 600;
+    line-height: 3.5rem;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.content-middle-right{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.about-agent, .form{
+    padding: 3rem;
+    border-radius: 5px;
+    border: 1px;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #DAC5BB;
+
+}
+.about-agent #p1{
+    display: inline-block;
+    
+}
+#seller{
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    white-space: nowrap;
+    gap: 20px;
+    /* display: inline-block; */
+}
+#contact{
+    padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    border-radius:5px;
+    background-color: white;
+    white-space: nowrap;
+}
+#contact .email{
+    display: flex;
+    gap: 0.7rem;
+}
+
+#contact .tel{
+    display: flex;
+    gap: 0.7rem;
+
+}
+#seller_text #name_seller{
+    font-family: "Kufam";
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #3B3A5D;
+}
+#seller_text #position{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #C17D5B;
+}
+.list ol{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3rem;
+    gap: 1.5rem;
+}
+form #name, #email, #tel{
+    /* display: flex; */
+    border: 1px ;
+    border-radius: 5px;
+    height: 5rem;
+    align-items: center;
+    padding: 2rem;
+}
+form #message{
+    border: 1px ;
+    border-radius: 5px;
+    height: 10rem;
+    padding: 2rem;
+}
+form #message::placeholder{
+    text-align: left;
+    position: absolute; /* Đặt placeholder vào vị trí tuyệt đối */
+    top: 2rem; 
+}
+
+.action .btn-submit{
+    padding: 1.3rem 4rem 1.3rem 4rem;
+    background-color: #3B3A5E;
+    border: 1px solid #3B3A5E;
+    color: white;
+}
+.gallery{
+    background-color: #F5F1EF;
+    padding: 7rem 13.5rem;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+.gallery .p_pic{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+.gallery .pic{
+    width: 30%;
+}
+.pic1:hover, .pic2:hover, .pic3:hover{
+    transform: scale(1.05);
+    /*Phóngtothẻdivlênkhihover*/box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+    /*Tăngđộđậmcủaboxshadow*/cursor: pointer;
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+} 
+.property-deals{
+    margin-top: 5rem;
+    /* padding: 70px 100px; */
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    position: relative;
+    align-content: center;
+
+}
+.price_item{
+    font-family: "Kufam", sans-serif;
+    font-size: 2.5rem;
+    font-weight: 600;
+    /* line-height: px; */
+    /* text-align: center; */
+    color: #FFBB50;
+}
+.deals{
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: space-evenly;
+}
+.item{
+    background-color: #F5F1EF;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 42%;
+    border-radius: 5px;
+    background-color: #F5F1EF;
+}
+.item_buy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.item .item_pic{
+    width: 100%;
+}
+.deal-for-sale{
+    background-color: #FFBB50;
+    border: 1px solid #FFBB50;
+    padding: 1rem 3.3rem 1rem 3.3rem;
+    color: #3B3A5D;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+.property-deals .location{
+    margin: 0;
+}
+.property-deals .D-item{
+    display: flex;
+    border: solid #C8C8C8 1px;
+    font-size: 80%;
+    align-items: baseline;
+    padding: 0.4rem 0.9rem;
+    border-radius: 5px ;
+}
+.property-deals .D-item img{
+    transform: scale(0.8);
+    margin: auto;
+
+}
+.pattern_under {
+    width: 33%;
+    position: absolute;
+    bottom: -5rem;
+    left: 45rem;
+    /* order: -1;  */
+    z-index: -100;
+    /* transform: rotate(180deg); */
+}
+.btn-touch-with-us{
+    display: inline-block;
+    /* display: flex; */
+    align-items: center;
+    gap: 0.5rem; 
+    font-family:"Kufam", sans-serif;
+    font-weight: 500;
+    padding: 1.3rem 2rem 1.3rem 2rem;
+    background-color: #3B3A5E;
+    border: 1px solid #3B3A5E;
+    color: white;
+}
+.property-deals .action{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+} 
+.btn-touch-with-us {
+    margin-top: 3rem;
+    display: flex;
+    align-content: baseline;
+}
+.item:hover{
+    cursor: pointer ;
+    /*border: 2px solid #FFBB50;
+    */background-color: #FFBB50;
+    box-shadow: 0.5rem 0.5rem 1rem #8F8F8F;
+
+}
+.item:hover .deal-for-sale{
+    background-color: #fff;
+}
+.item:hover .loca{
+    cursor: pointer;
+    content:url("../../img/Property_single/PS_loca_icon_hover.svg");
+}
+.item:hover .price_item{
+    color: white;
+}
+.action:hover .btn-touch-with-us{
+    border: 1px solid white;
+    background-color: #fff;
+    color: #3B3A5D;
+
+}
+
+.form-message {
+    display: none; /* Hide all error messages by default */
+    color: red;
+    font-size: 12px;
+}
+
+.form-message.active {
+    display: block; /* Show error messages when the active class is added */
+}
